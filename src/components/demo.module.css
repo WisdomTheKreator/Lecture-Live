@@ -1,0 +1,49 @@
+.video-box {
+    height: 250px;
+    /* 👈 critical */
+    background: #e5e7eb;
+    border-radius: 16px;
+}
+
+.students-box {
+    height: 250px;
+    /* 👈 must match video */
+    background: #f3f4f6;
+    border-radius: 16px;
+    overflow-y: auto;
+}
+
+.attention-card {
+    border-radius: 16px;
+    background: linear-gradient(135deg, #7aa2f7, #bb86fc);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons inside */
+.option-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 14px;
+    backdrop-filter: blur(6px);
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-1px);
+}
+
+/* Floating response badge */
+.response-badge {
+    position: absolute;
+    bottom: -15px;
+    right: 15px;
+    background: #22c55e;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    box-shadow: 0 6px 15px rgba(34, 197, 94, 0.4);
+}
