@@ -1,3 +1,11 @@
+import {
+  Calendar,
+  Clock,
+  Bell,
+  Link,
+  ChartBarIncreasing,
+  User,
+} from "lucide-react";
 export default function Features() {
   return (
     <div class="m-3">
@@ -7,7 +15,9 @@ export default function Features() {
       <div class="container">
         <div class="row">
           <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card w-100 h-30 p-3">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <Clock class="m-3 mb-2" size={40} color="#0d6efd" />
+
               <div class="card-body">
                 <h5 class="card-title">Real Time Attendance Tracking</h5>
                 <p class="card-text">
@@ -18,7 +28,9 @@ export default function Features() {
             </div>
           </div>
           <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card w-100 h-30 p-3">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <Bell class="m-3 mb-2" size={40} color="#0d6efd" />
+
               <div class="card-body">
                 <h5 class="card-title">Attention Prompts</h5>
                 <p class="card-text">
@@ -29,7 +41,8 @@ export default function Features() {
             </div>
           </div>
           <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card w-100 h-30 p-3">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <Link class="m-3 mb-2" size={40} color="#0d6efd" />
               <div class="card-body">
                 <h5 class="card-title">One-Click Join Links</h5>
                 <p class="card-text">
@@ -40,7 +53,8 @@ export default function Features() {
             </div>
           </div>
           <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
-            <div class="card w-100 h-30 p-3">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <Calendar class="m-3 mb-2" size={40} color="#0d6efd" />
               <div class="card-body">
                 <h5 class="card-title">Session Scheduling</h5>
                 <p class="card-text">
@@ -50,8 +64,9 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card w-100 h-30 p-3">
+          <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <ChartBarIncreasing class="m-3 mb-2" size={40} color="#0d6efd" />
               <div class="card-body">
                 <h5 class="card-title">Engagement Analytics</h5>
                 <p class="card-text">
@@ -62,8 +77,9 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card w-100 h-30 p-3">
+          <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
+            <div class="card w-100 h-100 p-3 shadow-sm rounded-4 border-primary-subtle">
+              <User class="m-3 mb-2" size={40} color="#0d6efd" />
               <div class="card-body">
                 <h5 class="card-title">Moderator Controls</h5>
                 <p class="card-text">

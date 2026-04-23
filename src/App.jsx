@@ -7,6 +7,7 @@ import Features from "./components/Features";
 // import Pricing from "./components/Pricing";
 // // import CTA from "./components/CTA";
 // import Footer from "./components/Footer";
+import "./index.css";
 
 export default function App() {
   return (
