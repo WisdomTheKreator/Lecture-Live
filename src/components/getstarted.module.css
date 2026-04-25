@@ -1,13 +1,21 @@
 .background {
-
-background: linear-gradient(135deg, #0d6efd, #4f96ff);
-padding: 50px;
-height: 75vh;
-
+  background: linear-gradient(135deg, #0d6efd, #4f96ff);
+  padding: 60px 24px;
+  min-height: 75vh;        /* min-height so it expands instead of clipping */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .energy {
   width: 60px;
   height: 60px;
   fill: white;
+}
+
+@media (max-width: 576px) {
+  .background {
+    padding: 48px 20px;
+    min-height: unset;     /* let content define height on small screens */
+  }
 }
