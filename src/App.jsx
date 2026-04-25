@@ -9,6 +9,7 @@ import HowItWorks from "./components/HowItWorks";
 // import Footer from "./components/Footer";
 import "./index.css";
 import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Features />
       <HowItWorks />
       <GetStarted />
+      <Footer />
     </div>
   );
 }
