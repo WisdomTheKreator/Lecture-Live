@@ -1,5 +1,4 @@
 import styles from "./getstarted.module.css";
-import energy from "../assets/energy.svg";
 
 export default function GetStarted() {
   return (
@@ -28,7 +27,11 @@ export default function GetStarted() {
         </p>
         <p
           className="text-center text-white mb-4"
-          style={{ fontSize: "clamp(1rem, 2.5vw, 1.2rem)", maxWidth: "560px", margin: "0 auto 1.5rem" }}
+          style={{
+            fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
+            maxWidth: "560px",
+            margin: "0 auto 1.5rem",
+          }}
         >
           Join thousands of educators creating more engaging, accountable online
           learning experiences.
